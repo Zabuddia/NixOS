@@ -30,6 +30,7 @@
         modules = [
           ./configuration.nix
           ./bluebubbles.nix
+          ./pi.nix
         ];
       };
     };
