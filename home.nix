@@ -35,6 +35,7 @@
     yt-dlp
     libreoffice
     remmina
+    impression
     obs-studio
     gnomeExtensions.dash-to-dock
     gnomeExtensions.start-overlay-in-application-view
