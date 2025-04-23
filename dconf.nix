@@ -30,6 +30,7 @@
         "org.gnome.Console.desktop"
         "org.gnome.Nautilus.desktop"
         "org.gnome.Calculator.desktop"
+        "org.gnome.Settings.desktop"
       ];
     };
     
