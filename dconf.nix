@@ -51,10 +51,11 @@
       button-layout = ":minimize,maximize,close";
     };
     
-    # Make it so windows snap into place and dynamic workspaces
+    # Make it so windows snap into place and dynamic workspaces and only primary display changes workspaces
     "org/gnome/mutter" = {
       edge-tiling = true;
       dynamic-workspaces = true;
+      workspaces-only-on-primary = true;
     };
     
     # Tell GNOME which folders to show
