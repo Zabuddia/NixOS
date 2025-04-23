@@ -14,5 +14,6 @@
     install_extension_if_missing TabbyML.vscode-tabby
     install_extension_if_missing ms-python.python
     install_extension_if_missing rust-lang.rust-analyzer
+    install_extension_if_missing bbenoist.nix
   '';
 }
