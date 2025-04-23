@@ -6,6 +6,7 @@
     ./nextcloud.nix
     ./dconf.nix
     ./git.nix
+    ./codium.nix
   ];
   
   # Home Manager needs a bit of information about you and the paths it should
@@ -28,7 +29,7 @@
     git
     firefox
     brave
-    vscode
+    vscodium
     # nextcloud-client
     vlc
     xournalpp

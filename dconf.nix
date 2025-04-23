@@ -24,7 +24,7 @@
     # Pin apps to dock
     "org/gnome/shell" = {
       favorite-apps = [
-        "code.desktop"
+        "codium.desktop"
         "brave-browser.desktop"
         "app.bluebubbles.BlueBubbles.desktop"
         "org.gnome.Software.desktop"
@@ -56,6 +56,11 @@
       edge-tiling = true;
       dynamic-workspaces = true;
       workspaces-only-on-primary = true;
+    };
+    
+    # Make it show the battery percentage
+    "org/gnome/desktop/interface" = {
+      show-battery-percentage = true;
     };
     
     # Tell GNOME which folders to show
