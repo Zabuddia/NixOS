@@ -36,7 +36,8 @@
     libreoffice
     remmina
     impression
-    obs-studio
+    zoom-us
+    droidcam
     gnomeExtensions.dash-to-dock
     gnomeExtensions.start-overlay-in-application-view
     gnomeExtensions.no-overview

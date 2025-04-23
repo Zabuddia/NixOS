@@ -31,6 +31,7 @@
           ./configuration.nix
           ./bluebubbles.nix
           ./pi.nix
+          ./droidcam.nix
         ];
       };
     };
