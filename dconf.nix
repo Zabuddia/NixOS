@@ -27,6 +27,7 @@
         "code.desktop"
         "brave-browser.desktop"
         "app.bluebubbles.BlueBubbles.desktop"
+        "org.gnome.Software.desktop"
         "org.gnome.TextEditor.desktop"
         "org.gnome.Console.desktop"
         "org.gnome.Nautilus.desktop"
