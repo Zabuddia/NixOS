@@ -26,6 +26,7 @@
       favorite-apps = [
         "code.desktop"
         "brave-browser.desktop"
+        "app.bluebubbles.BlueBubbles.desktop"
         "org.gnome.TextEditor.desktop"
         "org.gnome.Console.desktop"
         "org.gnome.Nautilus.desktop"
