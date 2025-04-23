@@ -26,19 +26,20 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
-    git
     firefox
     brave
     vscodium
-    # nextcloud-client
+    android-studio
     vlc
     xournalpp
     yt-dlp
     libreoffice
     remmina
+    obs-studio
     gnomeExtensions.dash-to-dock
     gnomeExtensions.start-overlay-in-application-view
     gnomeExtensions.no-overview
+    # nextcloud-client
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the

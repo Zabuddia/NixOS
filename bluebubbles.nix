@@ -1,12 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  services.flatpak.enable = true;
-
-  environment.systemPackages = with pkgs; [
-    flatpak
-  ];
-
   # Ensure Flathub is added if it is not already
   systemd.services.setup-flathub = {
     description = "Add Flathub remote for Flatpak";
