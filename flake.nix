@@ -31,8 +31,11 @@
           ./configuration.nix
           ./bluebubbles.nix
           ./pi.nix
-          ./droidcam.nix
+          ./obsstudio.nix
         ];
+        specialArgs = {
+          inherit userSettings;
+        };
       };
     };
     homeConfigurations = {
