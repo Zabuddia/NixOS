@@ -27,6 +27,7 @@
         "codium.desktop"
         "brave-browser.desktop"
         "app.bluebubbles.BlueBubbles.desktop"
+        "sparrow-desktop.desktop"
         "org.gnome.Software.desktop"
         "org.gnome.TextEditor.desktop"
         "org.gnome.Console.desktop"
