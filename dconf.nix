@@ -30,6 +30,7 @@
         "sparrow-desktop.desktop"
         "org.gnome.Software.desktop"
         "org.gnome.TextEditor.desktop"
+        "org.remmina.Remmina.desktop"
         "org.gnome.Console.desktop"
         "org.gnome.Nautilus.desktop"
         "org.gnome.Calculator.desktop"
