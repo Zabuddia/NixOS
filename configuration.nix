@@ -129,6 +129,9 @@
     tailscale
   ];
 
+  # Enable TOR
+  services.tor.enable = true;
+
   # Enable flatpak
   services.flatpak.enable = true;
   
