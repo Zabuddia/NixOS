@@ -3,7 +3,7 @@
 {
   services.nextcloud-client = {
     enable = true;
-    startInBackground = false;
+    startInBackground = true;
   };
   
   # This prevents it from starting too early
