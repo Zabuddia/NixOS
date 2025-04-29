@@ -31,6 +31,7 @@
     brave
     vscodium
     android-studio
+    marktext
     vlc
     xournalpp
     yt-dlp

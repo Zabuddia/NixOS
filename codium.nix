@@ -19,5 +19,6 @@
     install_extension_if_missing rust-lang.rust-analyzer
     install_extension_if_missing bbenoist.nix
     install_extension_if_missing esbenp.prettier-vscode
+    install_extension_if_missing zaaack.markdown-editor
     '';
 }
