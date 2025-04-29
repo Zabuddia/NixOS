@@ -38,6 +38,7 @@
     remmina
     impression
     zoom-us
+    ffmpeg
     gnomeExtensions.dash-to-dock
     gnomeExtensions.start-overlay-in-application-view
     gnomeExtensions.no-overview

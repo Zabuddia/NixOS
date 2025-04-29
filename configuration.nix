@@ -125,6 +125,7 @@
     usbutils
     pciutils
     nmap
+    gparted
     android-tools
     tailscale
   ];
