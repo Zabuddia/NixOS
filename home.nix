@@ -39,6 +39,8 @@
     impression
     zoom-us
     ffmpeg
+    quickemu
+    quickgui
     gnomeExtensions.dash-to-dock
     gnomeExtensions.start-overlay-in-application-view
     gnomeExtensions.no-overview
