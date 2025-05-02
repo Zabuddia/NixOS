@@ -31,6 +31,8 @@
     brave
     vscodium
     android-studio
+    super-slicer
+    freecad
     marktext
     vlc
     xournalpp
