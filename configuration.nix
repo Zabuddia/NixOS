@@ -124,6 +124,7 @@
     tmux
     usbutils
     pciutils
+    v4l-utils
     nmap
     gparted
     android-tools
@@ -143,6 +144,8 @@
       "--accept-routes"
     ];
   };
+
+  hardware.enableAllFirmware = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
