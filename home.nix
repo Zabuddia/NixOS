@@ -31,6 +31,7 @@
     brave
     vscodium
     android-studio
+    micro
     super-slicer
     freecad
     marktext
