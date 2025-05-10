@@ -14,10 +14,17 @@ cat ~/.ssh/id_ed25519.pub
 mkdir ~/.nixos
 git clone git@github.com:Zabuddia/NixOS.git ~/.nixos
 ```
+## Set Up Home Manager
+```bash
+# https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone
+nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.11.tar.gz home-manager
+nix-channel --update
+nix-shell '<home-manager>' -A install
 ## Set Up NixOS
 ```bash
 cd ~/.nixos
 rm ~/.nixos/hardware-configuration.nix
 sudo cp /etc/nixos/hardware-configuration.nix ~/.nixos
 sudo nixos-rebuild switch --flake .#alan-laptop-nixos
+home-manager switch --flake .
 ```
