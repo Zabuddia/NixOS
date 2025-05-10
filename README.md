@@ -17,9 +17,7 @@ git clone git@github.com:Zabuddia/NixOS.git ~/.nixos
 ## Set Up NixOS
 ```bash
 cd ~/.nixos
-# If on different hardware do
 rm ~/.nixos/hardware-configuration.nix
 sudo cp /etc/nixos/hardware-configuration.nix ~/.nixos
-# Otherwise just skip to this
 sudo nixos-rebuild switch --flake .#alan-laptop-nixos
 ```
