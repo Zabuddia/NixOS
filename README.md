@@ -24,7 +24,6 @@ nix-shell '<home-manager>' -A install
 ## Set Up NixOS
 ```bash
 cd ~/.nixos
-rm ~/.nixos/hardware-configuration.nix
 sudo cp /etc/nixos/hardware-configuration.nix ~/.nixos
 sudo nixos-rebuild switch --flake .#alan-laptop-nixos
 home-manager switch --flake .
