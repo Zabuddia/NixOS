@@ -76,6 +76,9 @@
         "Remote"
         "GNOME"
         "DevTools"
+        "3DPrinting"
+        "Disks"
+        "Web"
       ];
     };
 
@@ -83,6 +86,7 @@
     "org/gnome/desktop/app-folders/folders/Office" = {
       name = "Office";
       apps = [
+        "com.github.xournalpp.xournalpp.desktop"
         "base.desktop"
         "calc.desktop"
         "draw.desktop"
@@ -96,6 +100,7 @@
     "org/gnome/desktop/app-folders/folders/Productivity" = {
       name = "Productivity";
       apps = [
+        "Zoom.desktop"
         "org.gnome.clocks.desktop"
         "org.gnome.Calendar.desktop"
         "org.gnome.Characters.desktop"
@@ -106,7 +111,7 @@
       name = "System Tools";
       apps = [
         "org.gnome.SystemMonitor.desktop"
-        "org.gnome.DiskUtility.desktop"
+        "htop.desktop"
         "cups.desktop"
         "org.gnome.baobab.desktop"
         "org.gnome.Logs.desktop"
@@ -121,6 +126,8 @@
     "org/gnome/desktop/app-folders/folders/Media" = {
       name = "Media";
       apps = [
+        "vlc.desktop"
+        "com.obsproject.Studio.desktop"
         "org.gnome.font-viewer.desktop"
         "org.gnome.FileRoller.desktop"
         "org.gnome.Evince.desktop"
@@ -132,7 +139,10 @@
 
     "org/gnome/desktop/app-folders/folders/Remote" = {
       name = "Remote";
-      apps = [ "org.gnome.Connections.desktop" ];
+      apps = [
+        "org.gnome.Connections.desktop"
+        "quickgui.desktop"
+        ];
     };
 
     "org/gnome/desktop/app-folders/folders/GNOME" = {
@@ -146,7 +156,36 @@
 
     "org/gnome/desktop/app-folders/folders/DevTools" = {
       name = "Dev Tools";
-      apps = [ "vim.desktop" ];
+      apps = [
+        "vim.desktop"
+        "android-studio.desktop"
+        "marktext.desktop"
+        "micro.desktop"
+        ];
+    };
+    
+    "org/gnome/desktop/app-folders/folders/3DPrinting" = {
+      name = "3D Printing";
+      apps = [
+        "org.freecad.FreeCAD.desktop"
+        "SuperSlicer.desktop"
+        "SuperSlicer-Gcodeviewer.desktop"
+      ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Disks" = {
+      name = "Disks";
+      apps = [
+        "org.raspberrypi.rpi-imager.desktop"
+        "io.gitlab.adhami3310.Impression.desktop"
+        "gparted.desktop"
+        "org.gnome.DiskUtility.desktop"
+      ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Web" = {
+      name = "Web";
+      apps = [ "firefox.desktop" ];
     };
   };
 }

@@ -124,7 +124,6 @@
     tmux
     usbutils
     pciutils
-    v4l-utils
     nmap
     gparted
     android-tools
