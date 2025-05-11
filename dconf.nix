@@ -128,6 +128,7 @@
       apps = [
         "vlc.desktop"
         "com.obsproject.Studio.desktop"
+        "droidcam.desktop"
         "org.gnome.font-viewer.desktop"
         "org.gnome.FileRoller.desktop"
         "org.gnome.Evince.desktop"
