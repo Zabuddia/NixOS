@@ -79,6 +79,7 @@
         "3DPrinting"
         "Disks"
         "Web"
+        "Games"
       ];
     };
 
@@ -187,6 +188,14 @@
     "org/gnome/desktop/app-folders/folders/Web" = {
       name = "Web";
       apps = [ "firefox.desktop" ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Games" = {
+      name = "Games";
+      apps = [
+        "steam.desktop"
+        "protonup-qt.desktop"
+      ];
     };
   };
 }
