@@ -32,6 +32,7 @@
           ./bluebubbles.nix
           ./pi.nix
           ./obsstudio.nix
+          ./steam.nix
         ];
         specialArgs = {
           inherit userSettings;
