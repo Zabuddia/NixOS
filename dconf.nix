@@ -194,6 +194,7 @@
       name = "Games";
       apps = [
         "steam.desktop"
+        "dolphin-emu.desktop"
         "protonup-qt.desktop"
       ];
     };

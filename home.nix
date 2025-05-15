@@ -31,6 +31,7 @@
     brave
     vscodium
     android-studio
+    dolphin-emu
     micro
     super-slicer
     freecad
