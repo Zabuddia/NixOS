@@ -32,7 +32,7 @@
     vscodium
     android-studio
     dolphin-emu
-    micro
+    uxplay
     super-slicer
     freecad
     marktext

@@ -33,6 +33,7 @@
           ./pi.nix
           ./obsstudio.nix
           ./steam.nix
+          ./uxplay.nix
         ];
         specialArgs = {
           inherit userSettings;
