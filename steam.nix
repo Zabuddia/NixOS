@@ -15,8 +15,8 @@
 
   hardware.graphics.enable = true;
   hardware.graphics.enable32Bit = true;
-  hardware.graphics.extraPackages = with pkgs; [ mesa.drivers ];
-  hardware.graphics.extraPackages32 = with pkgs.pkgsi686Linux; [ mesa.drivers ];
+  hardware.graphics.extraPackages = with pkgs; [ mesa ];
+  hardware.graphics.extraPackages32 = with pkgs.pkgsi686Linux; [ mesa ];
 
   # Optional tools you might want
   environment.systemPackages = with pkgs; [
