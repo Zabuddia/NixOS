@@ -136,6 +136,8 @@
         "org.gnome.Loupe.desktop"
         "org.gnome.Music.desktop"
         "org.gnome.Snapshot.desktop"
+        "org.pulseaudio.pavucontrol.desktop"
+        "org.gnome.Decibels.desktop"
       ];
     };
 
@@ -187,7 +189,10 @@
 
     "org/gnome/desktop/app-folders/folders/Web" = {
       name = "Web";
-      apps = [ "firefox.desktop" ];
+      apps = [
+        "firefox.desktop"
+        "librewolf.desktop"
+        ];
     };
 
     "org/gnome/desktop/app-folders/folders/Games" = {
@@ -195,6 +200,10 @@
       apps = [
         "steam.desktop"
         "dolphin-emu.desktop"
+        "net.kuribo64.melonDS.desktop"
+        "Ryujinx.desktop"
+        "info.cemu.Cemu.desktop"
+        "org.azahar_emu.Azahar.desktop"
         "protonup-qt.desktop"
       ];
     };

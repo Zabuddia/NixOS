@@ -28,6 +28,7 @@
   home.packages = with pkgs; [
     sparrow
     firefox
+    librewolf
     brave
     vscodium
     android-studio
