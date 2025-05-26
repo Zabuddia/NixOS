@@ -35,6 +35,7 @@
     cemu
     azahar
     melonDS
+    ryujinx
     uxplay
     super-slicer
     freecad
