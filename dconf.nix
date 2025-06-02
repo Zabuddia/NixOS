@@ -20,6 +20,12 @@
       extend-height = true;
       click-action = "minimize-or-overview";
     };
+
+    # Turn on night light
+    "org/gnome/settings-daemon/plugins/color" = {
+      night-light-enabled = true;
+      night-light-schedule-automatic = true;
+    };
     
     # Pin apps to dock
     "org/gnome/shell" = {
