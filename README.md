@@ -1,5 +1,6 @@
 # How to install NixOS
 - Put NixOS on a USB drive and go thorugh installation
+## Connect to the internet
 ## Install Git
 ```bash
 sudo nano /etc/nixos/configuration.nix
