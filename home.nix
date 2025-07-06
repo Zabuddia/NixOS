@@ -42,6 +42,7 @@
     freecad
     marktext
     vlc
+    fbida
     xournalpp
     yt-dlp
     libreoffice

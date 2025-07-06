@@ -130,6 +130,7 @@
     gparted
     android-tools
     tailscale
+    openjdk
   ];
 
   # Enable TOR
