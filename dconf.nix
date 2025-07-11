@@ -18,7 +18,7 @@
       dock-position = "LEFT";
       dock-fixed = true;
       extend-height = true;
-      click-action = "minimize-or-overview";
+      click-action = "minimize";
     };
 
     # Turn on night light
