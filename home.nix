@@ -30,7 +30,7 @@
     firefox
     librewolf
     brave
-    vscodium
+    # vscodium
     android-studio
     dolphin-emu
     cemu
