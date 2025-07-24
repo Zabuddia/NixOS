@@ -14,6 +14,7 @@
       fi
     } 
 
+    install_extension_if_missing continue.continue
     install_extension_if_missing tabbyml.vscode-tabby
     install_extension_if_missing ms-python.python
     install_extension_if_missing rust-lang.rust-analyzer

@@ -39,7 +39,7 @@
     ryujinx
     uxplay
     super-slicer
-    freecad
+    # freecad
     marktext
     vlc
     fbida
@@ -103,7 +103,7 @@
   #  /etc/profiles/per-user/buddia/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-    # EDITOR = "emacs";
+    LD_LIBRARY_PATH = "${pkgs.stdenv.cc.cc.lib}/lib";
   };
 
   # Let Home Manager install and manage itself.
