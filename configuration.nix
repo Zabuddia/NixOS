@@ -82,6 +82,16 @@
     alsa.enable = true;
     alsa.support32Bit = true;
     pulse.enable = true;
+    # 👇 this disables camera backends that are crashing
+    extraConfig.pipewire."context.modules" = [
+      {
+        name = "libpipewire-module-spa-device-factory";
+        args = {
+          factory = "spa-device-factory";
+          disable = [ "libcamera" ];
+        };
+      }
+    ];
     # If you want to use JACK applications, uncomment this
     #jack.enable = true;
 

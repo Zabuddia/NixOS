@@ -1,7 +1,7 @@
 { config, pkgs, lib, ... }:
 
 let
-  # Create a wrapped codium with the missing libstdc++ injected
+  # Create a wrapped codium with the missing libstdc++ injected and a desktop file for it so it shows up on the desktop
   wrappedCodium = pkgs.writeShellScriptBin "codium" ''
     export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
     exec ${pkgs.vscodium}/bin/codium "$@"

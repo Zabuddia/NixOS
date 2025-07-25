@@ -39,7 +39,7 @@
     ryujinx
     uxplay
     super-slicer
-    # freecad
+    freecad
     marktext
     vlc
     fbida
@@ -52,6 +52,7 @@
     ffmpeg
     quickemu
     quickgui
+    moonlight-qt
     gnomeExtensions.dash-to-dock
     gnomeExtensions.start-overlay-in-application-view
     gnomeExtensions.no-overview
