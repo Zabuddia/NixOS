@@ -150,6 +150,7 @@
     "org/gnome/desktop/app-folders/folders/Remote" = {
       name = "Remote";
       apps = [
+        "com.moonlight_stream.Moonlight.desktop"
         "org.gnome.Connections.desktop"
         "quickgui.desktop"
         ];
