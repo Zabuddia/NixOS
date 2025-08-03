@@ -34,6 +34,7 @@
           ./obsstudio.nix
           ./steam.nix
           ./uxplay.nix
+          ./remote-desktop.nix
         ];
         specialArgs = {
           inherit userSettings;
