@@ -12,9 +12,9 @@
           "vim" "gnupg" "build-essential"
           "fonts-dejavu-core" "xdg-utils" "dbus-x11"
           "tree" "man-db" "iproute2" "strace"
-          "python3" "python3-pip"
+          "python3" "python3-pip" "lsof"
         ];
-        init = true;
+        init = false;
       };
 
       ubuntu = {
@@ -26,7 +26,7 @@
           "fonts-dejavu-core" "xdg-utils" "dbus-x11"
           "software-properties-common"
           "tree" "man-db" "iproute2" "strace"
-          "python3" "python3-pip"
+          "python3" "python3-pip" "lsof"
         ];
         init = true;
       };
