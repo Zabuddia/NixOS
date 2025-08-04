@@ -7,6 +7,7 @@
     ./dconf.nix
     ./git.nix
     ./codium.nix
+    ./distrobox.nix
   ];
   
   # Home Manager needs a bit of information about you and the paths it should

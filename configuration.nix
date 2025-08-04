@@ -132,7 +132,10 @@
     tailscale
     openjdk
     zip
+    podman
   ];
+
+  virtualisation.podman.enable = true;
 
   # Enable TOR
   services.tor.enable = true;
