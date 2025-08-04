@@ -133,6 +133,7 @@
     openjdk
     zip
     podman
+    neofetch
   ];
 
   virtualisation.podman.enable = true;
