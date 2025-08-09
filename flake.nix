@@ -35,6 +35,7 @@
           ./steam.nix
           ./uxplay.nix
           ./remote-desktop.nix
+          ./firewall.nix
         ];
         specialArgs = {
           inherit userSettings;
