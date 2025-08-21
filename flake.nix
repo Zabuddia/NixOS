@@ -35,6 +35,7 @@
           ./steam.nix
           ./uxplay.nix
           ./remote-desktop.nix
+          ./waydroid.nix
           ./firewall.nix
         ];
         specialArgs = {

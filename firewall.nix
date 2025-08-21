@@ -1,22 +1,19 @@
-# In configuration.nix or a separate .nix module
-{ config, pkgs, ... }:
-
 {
-  networking.firewall = {
-    enable = true;
-    extraCommands = ''
-      # Create table if it doesn't exist
-      nft list tables | grep -q "inet filter" || nft add table inet filter
+  networking.extraHosts = ''
+    # --- YouTube ---
+    0.0.0.0 youtube.com www.youtube.com m.youtube.com youtu.be
+    0.0.0.0 googlevideo.com i.ytimg.com yt3.ggpht.com youtubei.googleapis.com
+    ::1     youtube.com www.youtube.com m.youtube.com youtu.be
+    ::1     googlevideo.com i.ytimg.com yt3.ggpht.com youtubei.googleapis.com
 
-      # Create output chain if it doesn't exist
-      nft list chain inet filter output >/dev/null 2>&1 || \
-        nft add chain inet filter output { type filter hook output priority 0; }
-
-      # Facebook IP ranges
-      nft add rule inet filter output ip daddr 31.13.0.0/16 drop
-      nft add rule inet filter output ip daddr 157.240.0.0/16 drop
-      nft add rule inet filter output ip daddr 69.63.0.0/16 drop
-      nft add rule inet filter output ip daddr 66.220.0.0/16 drop
-    '';
-  };
+    # --- Facebook ---
+    0.0.0.0 facebook.com www.facebook.com m.facebook.com web.facebook.com
+    0.0.0.0 fbcdn.net static.xx.fbcdn.net scontent.xx.fbcdn.net
+    0.0.0.0 fbsbx.com edge-mqtt.facebook.com connect.facebook.net
+    0.0.0.0 messenger.com www.messenger.com
+    ::1     facebook.com www.facebook.com m.facebook.com web.facebook.com
+    ::1     fbcdn.net static.xx.fbcdn.net scontent.xx.fbcdn.net
+    ::1     fbsbx.com edge-mqtt.facebook.com connect.facebook.net
+    ::1     messenger.com www.messenger.com
+  '';
 }
