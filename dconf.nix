@@ -86,6 +86,7 @@
         "Disks"
         "Web"
         "Games"
+        "Waydroid"
       ];
     };
 
@@ -213,6 +214,11 @@
         "org.azahar_emu.Azahar.desktop"
         "protonup-qt.desktop"
       ];
+    };
+
+    "org/gnome/desktop/app-folders/folders/Waydroid" = {
+      name = "Waydroid";
+      apps = [ "Waydroid.desktop" ];
     };
   };
 }
