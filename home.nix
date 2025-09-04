@@ -54,6 +54,7 @@
     quickemu
     quickgui
     moonlight-qt
+    trayscale
     gnomeExtensions.dash-to-dock
     gnomeExtensions.start-overlay-in-application-view
     gnomeExtensions.no-overview

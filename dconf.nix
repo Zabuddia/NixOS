@@ -169,10 +169,10 @@
     "org/gnome/desktop/app-folders/folders/DevTools" = {
       name = "Dev Tools";
       apps = [
+        "dev.deedles.Trayscale.desktop"
         "vim.desktop"
         "android-studio.desktop"
         "marktext.desktop"
-        "micro.desktop"
         ];
     };
     
