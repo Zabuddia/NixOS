@@ -207,6 +207,7 @@
       name = "Games";
       apps = [
         "steam.desktop"
+        "org.prismlauncher.PrismLauncher.desktop"
         "dolphin-emu.desktop"
         "net.kuribo64.melonDS.desktop"
         "Ryujinx.desktop"

@@ -55,6 +55,7 @@
     quickgui
     moonlight-qt
     trayscale
+    prismlauncher
     gnomeExtensions.dash-to-dock
     gnomeExtensions.start-overlay-in-application-view
     gnomeExtensions.no-overview
