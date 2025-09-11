@@ -73,6 +73,9 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
+  services.printing.drivers = [
+    pkgs.hplipWithPlugin
+  ];
 
   # Enable sound with pipewire.
   services.pulseaudio.enable = false;
@@ -135,7 +138,11 @@
     podman
     neofetch
     imagemagick
+    traceroute
   ];
+
+  services.joycond.enable = true;
+  programs.joycond-cemuhook.enable = true;
 
   virtualisation.podman.enable = true;
 
@@ -166,7 +173,7 @@
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
+  services.openssh.enable = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];

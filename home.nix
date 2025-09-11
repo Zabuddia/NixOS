@@ -56,6 +56,7 @@
     moonlight-qt
     trayscale
     prismlauncher
+    evtest
     gnomeExtensions.dash-to-dock
     gnomeExtensions.start-overlay-in-application-view
     gnomeExtensions.no-overview
